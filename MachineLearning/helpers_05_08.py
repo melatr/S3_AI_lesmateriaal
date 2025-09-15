@@ -1,14 +1,17 @@
 #Bron: https://github.com/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/helpers_05_08.py
 
-
+import copy
 import numpy as np
 import matplotlib.pyplot as plt; plt.rcParams['figure.dpi'] = 600
 from sklearn.tree import DecisionTreeClassifier
 from ipywidgets import interact
 
 
-def visualize_tree(estimator, X, y, boundaries=True,
+def visualize_tree(est, X, y, boundaries=True,
                    xlim=None, ylim=None, ax=None):
+    # Copy estimator, otherwise trained estimator is overwritten by this function
+    estimator = copy.copy(est)
+
     ax = ax or plt.gca()
     
     # Plot the training points
