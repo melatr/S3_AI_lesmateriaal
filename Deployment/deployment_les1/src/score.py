@@ -32,7 +32,7 @@ def init():
                           'Neighborhood_GrnHill', 'Neighborhood_IDOTRR', 
                           'Neighborhood_Landmrk', 'Neighborhood_MeadowV', 
                           'Neighborhood_Mitchel', 'Neighborhood_NAmes', 
-                          'Neighborhood_NPkVill', 'Neighborhood_NWAmes', 
+                          'Neighborhood_NPkVill', 'x', 
                           'Neighborhood_NoRidge', 'Neighborhood_NridgHt', 
                           'Neighborhood_OldTown', 'Neighborhood_SWISU', 
                           'Neighborhood_Sawyer', 'Neighborhood_SawyerW', 
